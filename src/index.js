@@ -10,4 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const taskUl = document.getElementById('tasks');
 
+  newTaskForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    taskList.createNewTask(newTaskDescription.value);
+
 });
