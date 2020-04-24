@@ -22,5 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
    taskDescription.value = ""; // Reset the taskDescription input.
    event.preventDefault(); // Prevent the form from submitting to another page.
  } // End of updateTasks
+
 form.addEventListener("submit", addTasks, false);
 });
