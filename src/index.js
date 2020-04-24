@@ -24,5 +24,5 @@ document.addEventListener("DOMContentLoaded", () => {
  } // End of updateTasks
 
 
-//form.addEventListener("submit", addTasks, false);
+form.addEventListener("submit", addTasks, false);
 });
