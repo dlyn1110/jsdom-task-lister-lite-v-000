@@ -23,5 +23,5 @@ document.addEventListener("DOMContentLoaded", () => {
    event.preventDefault(); // Prevent the form from submitting to another page.
  } // End of updateTasks
 
-form.addEventListener("submit", addTasks, false);
+//form.addEventListener("submit", addTasks, false);
 });
