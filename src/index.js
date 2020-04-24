@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
    //task.appendChild(deleteButton); // Add the delete button to the task.
    tasks.appendChild(task); // Add the task to the TODO List.
 
-   //taskDescription.value = ""; // Reset the taskDescription input.
+   taskDescription.value = ""; // Reset the taskDescription input.
    event.preventDefault(); // Prevent the form from submitting to another page.
  } // End of updateTasks
 
