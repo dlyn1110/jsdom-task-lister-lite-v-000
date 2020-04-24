@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById('create-task-form');
- const taskDescription = document.getElementById('new-task-description');
+  const taskDescription = document.getElementById('new-task-description');
 
  function addTasks (event) {
-   const task = document.createElement('li'); // Create a task.
+   const task = document.createElement('li'); 
 
    task.textContent = taskDescription.value + " ";
 
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
    taskDescription.value = " ";
    event.preventDefault();
- } 
+ }
 
 
 form.addEventListener("submit", addTasks, false);
