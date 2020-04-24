@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
  const taskDescription = document.getElementById('new-task-description');
 
  function addTasks (event) {
-   const task = document.createElement('li'); // Create a task.
+   const task = document.createElement('ul'); // Create a task.
 
    task.textContent = taskDescription.value + " ";
 
