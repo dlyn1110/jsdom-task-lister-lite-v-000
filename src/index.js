@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
  function addTasks (event) {
    const task = document.createElement('li'); // Create a task.
 
-   task.textContent;
+   task.textContent = taskDescription.value + " ";
 
    // Create the delete button for the task.
    //const deleteButton = document.createElement('button');
